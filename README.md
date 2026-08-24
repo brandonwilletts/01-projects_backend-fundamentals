@@ -35,6 +35,33 @@ Unless a project says otherwise:
 - When measuring performance, define the workload and run repeated measurements rather than reporting one cherry-picked result.
 - A project is not complete merely because it worked once.
 
+## Completion Tracker
+
+- [x] Project 1 --- Project Setup
+- [x] Project 2 --- HTTP Server
+- [x] Project 3 --- Express Server
+- [x] Project 4 --- Routing
+- [ ] Project 5 --- Pagination, Filtering, Search, and Sorting
+- [ ] Project 6 --- PostgreSQL Persistence
+- [ ] Project 7 --- Database Migrations
+- [ ] Project 8 --- Request Validation
+- [ ] Project 9 --- Automated API Testing
+- [ ] Project 10 --- Middleware and Central Error Handling
+- [ ] Project 11 --- Logging and Observability
+- [ ] Project 12 --- Redis Caching
+- [ ] Project 13 --- Authentication
+- [ ] Project 14 --- Authorization
+- [ ] Project 15 --- Object Storage
+- [ ] Project 16 --- Background Jobs
+- [ ] Project 17 --- Queue Reliability Patterns
+- [ ] Project 18 --- Webhooks
+- [ ] Project 19 --- API Versioning
+- [ ] Project 20 --- Idempotent HTTP Writes
+- [ ] Project 21 --- Docker
+- [ ] Project 22 --- Docker Compose
+- [ ] Project 23 --- Cloud Deployment
+- [ ] Project 24 --- OpenAPI / Swagger Documentation
+
 ------------------------------------------------------------------------
 
 ## ✅ Project 1 --- Project Setup
@@ -42,10 +69,6 @@ Unless a project says otherwise:
 ### Objective
 
 Initialize a production-ready Node.js + TypeScript backend project from scratch.
-
-### Status
-
-✅ Completed. The tests below are retained as reference checks; you do not need to redo the project solely to backfill the newer roadmap format.
 
 ### Required Implementation
 
@@ -76,10 +99,6 @@ Explain:
 
 Build a basic REST-style HTTP server using Node's built-in `http` module and keep book data in memory.
 
-### Status
-
-✅ Completed. The tests below are retained as reference checks; you do not need to redo the project solely to backfill the newer roadmap format.
-
 ### Required Implementation
 
 - Create a server without Express.
@@ -109,10 +128,6 @@ Explain:
 
 Rebuild the HTTP server using Express and compare the framework abstractions with the raw Node implementation.
 
-### Status
-
-✅ Completed. The tests below are retained as reference checks; you do not need to redo the project solely to backfill the newer roadmap format.
-
 ### Required Implementation
 
 - Reimplement the Project 2 endpoints with Express.
@@ -140,10 +155,6 @@ Explain:
 ### Objective
 
 Separate related endpoints into dedicated route modules.
-
-### Status
-
-✅ Completed. The tests below are retained as reference checks; you do not need to redo the project solely to backfill the newer roadmap format.
 
 ### Required Implementation
 
@@ -837,32 +848,3 @@ Each project README should record:
 - design decisions/tradeoffs;
 - what you learned;
 - remaining questions.
-
-------------------------------------------------------------------------
-
-# Completion Tracker
-
-- [x] Project 1 --- Project Setup
-- [x] Project 2 --- HTTP Server
-- [x] Project 3 --- Express Server
-- [x] Project 4 --- Routing
-- [ ] Project 5 --- Pagination, Filtering, Search, and Sorting
-- [ ] Project 6 --- PostgreSQL Persistence
-- [ ] Project 7 --- Database Migrations
-- [ ] Project 8 --- Request Validation
-- [ ] Project 9 --- Automated API Testing
-- [ ] Project 10 --- Middleware and Central Error Handling
-- [ ] Project 11 --- Logging and Observability
-- [ ] Project 12 --- Redis Caching
-- [ ] Project 13 --- Authentication
-- [ ] Project 14 --- Authorization
-- [ ] Project 15 --- Object Storage
-- [ ] Project 16 --- Background Jobs
-- [ ] Project 17 --- Queue Reliability Patterns
-- [ ] Project 18 --- Webhooks
-- [ ] Project 19 --- API Versioning
-- [ ] Project 20 --- Idempotent HTTP Writes
-- [ ] Project 21 --- Docker
-- [ ] Project 22 --- Docker Compose
-- [ ] Project 23 --- Cloud Deployment
-- [ ] Project 24 --- OpenAPI / Swagger Documentation
